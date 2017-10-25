@@ -1,0 +1,24 @@
+{
+    "name": "my-app",
+    "version": "1.0.0",
+    "description": "AnimatedShoppingList",
+    "author": "Derek Rivers",
+    "scripts": {
+      "start": "node_modules/.bin/webpack-dev-server --progress"
+    },
+    "devDependencies": {
+      "babel-core": "^5.8.*",
+      "babel-loader": "^5.3.*",
+      "webpack": "^1.12.*",
+      "webpack-dev-server": "^1.10.*"
+    },
+    "dependencies": {
+      "babel-polyfill": "^6.26.0",
+      "marked": "^0.3.6",
+      "react": "^0.13.*",
+      "react-addons-css-transition-group": "^15.6.2",
+      "react-addons-update": "^15.6.2",
+      "whatwg-fetch": "^2.0.3"
+    }
+  }
+  
